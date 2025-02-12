@@ -4,7 +4,7 @@ import (
 	"io"
 
 	"github.com/chaiyapluek/goutils-logging/src/utils"
-	"github.com/labstack/echo"
+	"github.com/labstack/echo/v4"
 )
 
 func PrepareRequestContext(next echo.HandlerFunc) echo.HandlerFunc {
